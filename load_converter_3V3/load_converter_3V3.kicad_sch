@@ -9788,7 +9788,7 @@
 				)
 			)
 		)
-		(property "Value" "100m"
+		(property "Value" "1R"
 			(at 477.52 124.968 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13179,7 +13179,7 @@
 				)
 			)
 		)
-		(property "Value" "100m"
+		(property "Value" "1R"
 			(at 90.17 100.33 90)
 			(effects
 				(font
