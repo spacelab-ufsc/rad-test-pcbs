@@ -702,7 +702,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 3.5 0 0)
+			(at -3.5 -0.15 0)
 			(layer "F.SilkS")
 			(uuid "2626dd26-d5b3-4da0-84d1-6c0764db1b9a")
 			(effects
@@ -3091,7 +3091,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at -3 -1 0)
+			(at -3 0 0)
 			(layer "F.SilkS")
 			(uuid "1b957657-c67c-4f47-abdd-f0f07cfa49f2")
 			(effects
@@ -3688,7 +3688,7 @@
 		(descr "8-Lead Plastic PSOP, Exposed Die Pad (TI DDA0008B, see http://www.ti.com/lit/ds/symlink/lm3404.pdf)")
 		(tags "SSOP 0.50 exposed pad")
 		(property "Reference" "U1"
-			(at 3.37375 4.155 0)
+			(at 0.02375 3.905 0)
 			(layer "F.SilkS")
 			(uuid "b93187b9-935a-4a32-a9ea-656a0e852b83")
 			(effects
@@ -4689,7 +4689,7 @@
 		)
 		(polygon
 			(pts
-				(xy 143.55 98.35) (xy 143.55 102.35) (xy 147.55 102.35) (xy 152.05 100.35) (xy 167.55 100.35) (xy 167.55 98.35)
+				(xy 143.55 98.35) (xy 143.55 102.35) (xy 147.55 102.35) (xy 152.05 100.35) (xy 171.95 100.35) (xy 171.95 98.35)
 			)
 		)
 	)
