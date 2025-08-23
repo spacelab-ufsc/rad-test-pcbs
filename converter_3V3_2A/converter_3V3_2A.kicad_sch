@@ -2827,7 +2827,7 @@
 				)
 			)
 		)
-		(property "Value" "500m"
+		(property "Value" "1R"
 			(at 66.802 89.916 90)
 			(effects
 				(font
@@ -3228,7 +3228,7 @@
 				)
 			)
 		)
-		(property "Value" "500m"
+		(property "Value" "1R"
 			(at 229.362 89.916 90)
 			(effects
 				(font
