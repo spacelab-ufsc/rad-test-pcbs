@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA199C3DCKR
+D 26V, bi-directional, zero-drift, low-/high-side, voltage output current sense amplifier
+K
+F http://www.ti.com/lit/gpn/INA199
+$ENDCMP
+#
+#End Doc Library

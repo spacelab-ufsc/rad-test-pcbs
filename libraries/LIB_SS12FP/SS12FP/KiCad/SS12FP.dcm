@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS12FP
+D * See authorized use policy; Industrial Device Qualified per AEC-Q101 Standards; High Surge Current Capability; RoHS Compliant / Green Molding Compound; UL Flammability 94V-0 Classification; Low Power Loss, High Efficiency; Ultra Thin Profile - Package Height < 1.0 mm; Larger Cathode Pad for Improved Power Dissipation; MSL 1 per J-STD-020
+K
+F https://www.onsemi.com/pub/Collateral/S110FP-D.pdf
+$ENDCMP
+#
+#End Doc Library

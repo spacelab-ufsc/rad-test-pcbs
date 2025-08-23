@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SS12FP'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "SS12FP" (!) = "", "SS12FP", "Other", "512-SS12FP", "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/SS12FP?qs=R26iFe%2FkX%2FLDfxY7OgqtVg%3D%3D", "* See authorized use policy; Industrial Device Qualified per AEC-Q101 Standards; High Surge Current Capability; RoHS Compliant / Green Molding Compound; UL Flammability 94V-0 Classification; Low Power Loss, High Efficiency; Ultra Thin Profile - Package Height < 1.0 mm; Larger Cathode Pad for Improved Power Dissipation; MSL 1 per J-STD-020", "https://www.onsemi.com/pub/Collateral/S110FP-D.pdf", "1 mm"
+END_PART
+
+END.

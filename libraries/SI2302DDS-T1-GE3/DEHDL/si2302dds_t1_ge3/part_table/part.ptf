@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SI2302DDS_T1_GE3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "SI2302DDS-T1-GE3" (!) = "", "SOT95P237X112-3N", "SOT23 (3-Pin)", "78-SI2302DDS-T1-GE3", "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2302DDS-T1-GE3?qs=MxnWX8BLHKdaCSNWhg%252BxLA%3D%3D", "SI2302DDS-T1-GE3 N-Channel MOSFET, 2.6 A, 20 V, 3-Pin SOT-363 Vishay", "http://www.vishay.com/docs/63653/si2302dds.pdf", "1.12 mm"
+END_PART
+
+END.

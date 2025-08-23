@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS5420QDRQ1
+D Voltage Regulators - Switching Regulators 2A Wide-Input-Range Step-Down Converter
+K
+F http://www.ti.com/lit/ds/symlink/tps5420-q1.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS5420QDRQ1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS5420QDRQ1" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "595-TPS5420QDRQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS5420QDRQ1?qs=wkx8pu8tL7J7TtwDHJoKDw%3D%3D", "Voltage Regulators - Switching Regulators 2A Wide-Input-Range Step-Down Converter", "http://www.ti.com/lit/ds/symlink/tps5420-q1.pdf", "1.75 mm"
+END_PART
+
+END.

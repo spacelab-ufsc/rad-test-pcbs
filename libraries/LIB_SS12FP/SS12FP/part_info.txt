@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=SS12FP
+PartCategory=Schottky Diode
+PackageCategory=Other
+PinCount=2
+Version=3.2
+Released=2018-04-21 09:34:44
+Downloaded=2025-08-09 21:58:43
+3D=Y

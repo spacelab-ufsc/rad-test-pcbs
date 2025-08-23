@@ -1,0 +1,16 @@
+.INA199C3DCKR :1 ;26V, bi-directional, zero-drift, low-/high-side, voltage output current sense amplifier
+SOT65P210X110-6N
+*STM L
+*NGS
+*PLB 1="REF" 2="GND" 3="V+" 4="IN+" 5="IN-" 6="OUT"
+*MXP 6
+*DFN INA199C3DCKR
+~!Mouser Part Number (595-INA199C3DCKR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA199C3DCKR?qs=0C8XhJW8e4r6fLKZGUND2A%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (INA199C3DCKR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/INA199)
+~!Height (1.1mm)
+~!3D_Model (INA199C3DCKR)
+INA199C3DCKR
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

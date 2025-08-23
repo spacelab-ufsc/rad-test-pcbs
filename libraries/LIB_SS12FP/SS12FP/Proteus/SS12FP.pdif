@@ -1,0 +1,133 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SS12FP"
+   (description "* See authorized use policy; Industrial Device Qualified per AEC-Q101 Standards; High Surge Current Capability; RoHS Compliant / Green Molding Compound; UL Flammability 94V-0 Classification; Low Power Loss, High Efficiency; Ultra Thin Profile - Package Height < 1.0 mm; Larger Cathode Pad for Improved Power Dissipation; MSL 1 per J-STD-020")
+   (family "DIO")
+   (package "SS12FP")
+   (attribute "Datasheet Link" "https://www.onsemi.com/pub/Collateral/S110FP-D.pdf")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Mouser Part Number" "512-SS12FP")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/SS12FP?qs=R26iFe%2FkX%2FLDfxY7OgqtVg%3D%3D")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "SS12FP")
+   (gate
+    (symbol "SS12FP")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "SS12FP"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 340 100) (pt 340 60))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -100) (pt 260 -100) (pt 260 -60))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 500 0) (pt 600 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 0) (pt 500 100) (pt 500 -100) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 100 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SS12FP"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.4 0.9)
+      (pt 1.4 0.9)
+      (pt 1.4 -0.9)
+      (pt -1.4 -0.9)
+      (pt -1.4 0.9))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.6 1.9)
+      (pt 2.788 1.9)
+      (pt 2.788 -1.9)
+      (pt -4.6 -1.9)
+      (pt -4.6 1.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.4 0.8)
+      (pt -1.4 0.9)
+      (pt 1.4 0.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.4 -0.9)
+      (pt 1.4 -0.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.6 0)
+      (arc (pt -3.600 0.000) (pt -3.600 -0.050) (pt -3.500 0.050) (start 180.0) (sweep 180.0))
+      (pt -3.5 0)
+      (arc (pt -3.500 0.000) (pt -3.600 -0.050) (pt -3.500 0.050) (start 180.0) (sweep .0))
+      (pt -3.6 0))))
+   (leg 1 (pt -1.163 0.000) (padstack 0))
+   (leg 2 (pt 1.163 0.000) (padstack 2))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.400 2.300 0 0 0.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 1.250 1.400 0 0 90.000))
+   )
+   (model "SS12FP.stp"
+    (euler -90 180 180)
+    (offset -0.2800000011920929 0 -0.05000000074505806)
+   )
+  )
+ )
+)

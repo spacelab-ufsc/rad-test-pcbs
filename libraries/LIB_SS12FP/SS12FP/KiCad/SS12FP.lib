@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SS12FP
+#/1027549/1743273/2.50/2/2/Schottky Diode
+DEF SS12FP D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "SS12FP" 500 250 50 H V L CNN
+F2 "SS12FP" 500 150 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/S110FP-D.pdf" 500 50 50 H I L CNN
+F4 "* See authorized use policy; Industrial Device Qualified per AEC-Q101 Standards; High Surge Current Capability; RoHS Compliant / Green Molding Compound; UL Flammability 94V-0 Classification; Low Power Loss, High Efficiency; Ultra Thin Profile - Package Height < 1.0 mm; Larger Cathode Pad for Improved Power Dissipation; MSL 1 per J-STD-020" 500 -50 50 H I L CNN "Description"
+F5 "1" 500 -150 50 H I L CNN "Height"
+F6 "512-SS12FP" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/SS12FP?qs=R26iFe%2FkX%2FLDfxY7OgqtVg%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "onsemi" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "SS12FP" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library

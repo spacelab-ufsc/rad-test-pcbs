@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=7443251600
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2017-01-12 20:05:57
+Downloaded=2025-08-12 00:50:33
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '7443251600'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Wurth Elektronik", "7443251600" (!) = "", "WE-HCI_105023", "Other", "710-7443251600", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7443251600?qs=VxkwJfKV0FSkbbPOgC7FsA%3D%3D", "SMD-Flat Wire High Current Inductor WE-HCI", ""
+END_PART
+
+END.

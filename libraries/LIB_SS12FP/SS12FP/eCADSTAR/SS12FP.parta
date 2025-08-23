@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_1027549"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-04-21-09:34:44)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SS12FP")
+)
+
+
+(pinAssign "ECS_1027549"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-04-21-09:34:44)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1027549")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SS12FP")
+)
+
+
+(part "SS12FP"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-04-21-09:34:44)
+    (utime 2025-01-22-16:53:39)
+    (packageRef "SS12FP")
+    (pinAssignRef "ECS_1027549")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "* See authorized use policy; Industrial Device Qualified per AEC-Q101 Standards; High Surge Current Capability; RoHS Compliant / Green Molding Compound; UL Flammability 94V-0 Classification; Low Power Loss, High Efficiency; Ultra Thin Profile - Package Height < 1.0 mm; Larger Cathode Pad for Improved Power Dissipation; MSL 1 per J-STD-020")
+    (property "Mouser_Part_Number" "512-SS12FP")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/SS12FP?qs=R26iFe%2FkX%2FLDfxY7OgqtVg%3D%3D")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "SS12FP")
+    (property "Datasheet_Link" "https://www.onsemi.com/pub/Collateral/S110FP-D.pdf")
+    (property "compAreaTopHeight" 1)
+)
+
+

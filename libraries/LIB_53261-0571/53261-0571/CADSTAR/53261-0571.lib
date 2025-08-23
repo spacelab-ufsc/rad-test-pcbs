@@ -1,0 +1,17 @@
+.53261-0571 :1 ;Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 5 Way 1 Row Right Angle PCB Header, Solder Termination, 1A
+"532610571TR250"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=MP1 7=MP2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="MP1" 7="MP2"
+*MXP 7
+*DFN 53261-0571
+~!Mouser Part Number (538-53261-0571)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Molex/53261-0571?qs=Z4ettq%2Fvyk9tUNWvtq%2FUoA%3D%3D)
+~!Manufacturer_Name (Molex)
+~!Manufacturer_Part_Number (53261-0571)
+~!Link Datasheet (https://www.molex.com/pdm_docs/sd/532610571_sd.pdf)
+~!Height (3.4mm)
+~!3D_Model (53261-0571)
+"53261-0571"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 

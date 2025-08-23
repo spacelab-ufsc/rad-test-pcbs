@@ -1,0 +1,16 @@
+.TPS5420QDRQ1 :1 ;Voltage Regulators - Switching Regulators 2A Wide-Input-Range Step-Down Converter
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="BOOT" 2="NC_1" 3="NC_2" 4="VSENSE" 5="ENA" 6="GND" 7="VIN" 8="PH"
+*MXP 8
+*DFN TPS5420QDRQ1
+~!Mouser Part Number (595-TPS5420QDRQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS5420QDRQ1?qs=wkx8pu8tL7J7TtwDHJoKDw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS5420QDRQ1)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/tps5420-q1.pdf)
+~!Height (1.75mm)
+~!3D_Model (TPS5420QDRQ1)
+TPS5420QDRQ1
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

@@ -1,0 +1,161 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "53261-0571"
+   (description "Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 5 Way 1 Row Right Angle PCB Header, Solder Termination, 1A")
+   (family "CON")
+   (package "532610571TR250")
+   (attribute "Datasheet Link" "https://www.molex.com/pdm_docs/sd/532610571_sd.pdf")
+   (attribute "Geometry.Height" "3.4mm")
+   (attribute "Mouser Part Number" "538-53261-0571")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/53261-0571?qs=Z4ettq%2Fvyk9tUNWvtq%2FUoA%3D%3D")
+   (attribute "Manufacturer_Name" "Molex")
+   (attribute "Manufacturer_Part_Number" "53261-0571")
+   (gate
+    (symbol "53261-0571")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "MP1" MP1 PS)
+    (pin "MP2" MP2 PS)
+   )
+  )
+  (symbol "53261-0571"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "532610571TR250"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -5.5 0)
+      (pt 5.5 0)
+      (pt 5.5 -4.2)
+      (pt -5.5 -4.2)
+      (pt -5.5 0))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.1 2.6)
+      (pt 7.1 2.6)
+      (pt 7.1 -5.2)
+      (pt -7.1 -5.2)
+      (pt -7.1 2.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -5.5 -4)
+      (pt -5.5 -4.2)
+      (pt 5.5 -4.2)
+      (pt 5.5 -4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 3.3 0)
+      (pt 5.5 0)
+      (pt 5.5 -0.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.3 0)
+      (pt -5.5 0)
+      (pt -5.5 -0.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.6 2)
+      (arc (pt -2.600 2.000) (pt -2.600 1.900) (pt -2.400 2.100) (start 180.0) (sweep 180.0))
+      (pt -2.4 2)
+      (arc (pt -2.400 2.000) (pt -2.600 1.900) (pt -2.400 2.100) (start 180.0) (sweep .0))
+      (pt -2.6 2))))
+   (leg 1 (pt -2.500 0.800) (padstack 0))
+   (leg 2 (pt -1.250 0.800) (padstack 0))
+   (leg 3 (pt 0.000 0.800) (padstack 0))
+   (leg 4 (pt 1.250 0.800) (padstack 0))
+   (leg 5 (pt 2.500 0.800) (padstack 5))
+   (leg MP1 (pt -5.050 -2.100) (padstack 6))
+   (leg MP2 (pt 5.050 -2.100) (padstack 7))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.800 1.600 0 0 90.000))
+   )
+   (padstack 5
+    (plated false)
+    (pad (layer TCOP) (rectf 0.800 1.600 0 0 90.000))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 2.100 3.000 0 0 90.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 2.100 3.000 0 0 90.000))
+   )
+   (model "53261-0571.stp"
+    (euler 0 0 180)
+    (offset 0 -2.9200000762939453 1.7999999523162842)
+   )
+  )
+ )
+)
