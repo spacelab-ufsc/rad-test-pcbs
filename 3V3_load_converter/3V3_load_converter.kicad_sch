@@ -1,0 +1,205 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2eebaa11-d7ed-4bfd-bc8e-988f68654d29")
+	(paper "A3")
+	(title_block
+		(title "Reliability Enhanced Electrical Power System")
+		(date "2023-08-03")
+		(rev "v0.0")
+		(comment 1 "Davi Figueiredo <figueiredo.davi7@gmail.com> ")
+		(comment 2 "João C. E. Barcellos <joaoclaudiobarcellos@gmail.com>")
+		(comment 3 "Laura Debastiani <laudebastiani@gmail.com>")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 208.28 214.63) (xy 214.63 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ebf065-785e-46b7-b504-d74cb2a3d678")
+	)
+	(wire
+		(pts
+			(xy 208.28 207.01) (xy 267.97 207.01)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "5fe7b8e8-1c77-4506-8cda-9653dfb73829")
+	)
+	(wire
+		(pts
+			(xy 146.05 215.9) (xy 154.94 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c38436-95b3-4d2a-be17-fd9d9f845c38")
+	)
+	(wire
+		(pts
+			(xy 134.62 208.28) (xy 154.94 208.28)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "a45be042-8c76-4828-b3b8-d47d999bffcc")
+	)
+	(wire
+		(pts
+			(xy 154.94 218.44) (xy 146.05 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae315975-2bc6-40dc-b746-8b5c196382a3")
+	)
+	(label "3V3_B_~{EN}"
+		(at 146.05 218.44 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "05e725cd-5640-4ba7-ba16-99d0f6415bac")
+	)
+	(label "3V3_A_~{EN}"
+		(at 146.05 215.9 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b8ef2fd-52f9-40c7-af2d-b1a5c5eaa94d")
+	)
+	(label "AMUX7"
+		(at 214.63 214.63 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d9a1dcb-fc28-4ce9-8140-8cc862199799")
+	)
+	(sheet
+		(at 154.94 203.2)
+		(size 53.34 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "6f34948c-43a8-4614-b8ed-90c5b6b9b243")
+		(property "Sheetname" "U_3V3_Load_Converters"
+			(at 154.94 202.1996 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3V3_Load_Converters.kicad_sch"
+			(at 154.94 225.3604 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 208.28 207.01 0)
+			(uuid "ea645a19-44f0-4219-b5da-c450ebea51b8")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_A_~{EN}" input
+			(at 154.94 215.9 180)
+			(uuid "a4428e6a-93b7-404a-8265-edefc33f8909")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "AMUX7" output
+			(at 208.28 214.63 0)
+			(uuid "edff3448-c499-4b71-b80c-26cd0acee843")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 154.94 208.28 180)
+			(uuid "d7d2ec8e-a862-4996-8d21-0df83af49233")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_B_~{EN}" input
+			(at 154.94 218.44 180)
+			(uuid "214f9c9e-410e-489c-b57b-507bf477576b")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "3V3_load_converter"
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
