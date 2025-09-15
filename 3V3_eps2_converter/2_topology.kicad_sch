@@ -1,0 +1,157 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fc1bc180-e91e-4413-87a6-17041f8f526d")
+	(paper "A3")
+	(title_block
+		(title "EPS Topology")
+		(rev "=ProjectRevision")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 317.5 186.7662) (xy 329.692 186.7662)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 173 188 231 1)
+		)
+		(uuid "1348815c-44d0-49f5-bd43-59316a4805ed")
+	)
+	(wire
+		(pts
+			(xy 223.52 182.7022) (xy 264.16 182.7022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e68023e-150c-4130-b250-81a23fa275be")
+	)
+	(wire
+		(pts
+			(xy 264.16 197.9422) (xy 254 197.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b9c183-8122-414e-a659-1cd60c193715")
+	)
+	(wire
+		(pts
+			(xy 264.16 195.4022) (xy 228.6 195.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63069b1-d024-4a4c-a39c-71addff00f40")
+	)
+	(label "PGND"
+		(at 254 197.9422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a60e4df-eec7-447d-8937-0ff446f17cfd")
+	)
+	(hierarchical_label "3V3_OBDH_3V3_Deployment_ANT"
+		(shape passive)
+		(at 329.692 186.7662 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69ccbf81-7d8a-4aad-b82c-e6ef90d995d1")
+	)
+	(sheet
+		(at 264.16 177.6222)
+		(size 53.34 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "054c3ec9-2dd4-4d47-8e91-a0382f6a6ece")
+		(property "Sheetname" "dc_dc_3V3_OBDH_and_3V3_Deployment_ANT"
+			(at 264.16 175.0822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "7_dc_dc_3v3_ant_obdh.kicad_sch"
+			(at 264.16 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "VBus" passive
+			(at 264.16 195.4022 180)
+			(uuid "d046c034-8c8e-454c-b5db-70405252bb62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_OBDH_3V3_Deployment_ANT" passive
+			(at 317.5 186.7662 0)
+			(uuid "d131d840-ec51-4f8f-a1dc-91b9a3f288d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGND" passive
+			(at 264.16 197.9422 180)
+			(uuid "c99a6ba1-ca0c-42f4-9070-15447ded4bf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "En_3V3_OBDH" input
+			(at 264.16 182.7022 180)
+			(uuid "5c148862-3d00-4642-9e4f-e18426589bfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "3V3_eps2_converter"
+				(path "/b10c3027-e341-47ba-82ae-2845b95084d1/3cfaa560-48d3-48c4-b41d-7e69f81fb3b8/81969499-4a62-4451-b038-ba8e8cb32904"
+					(page "8")
+				)
+			)
+		)
+	)
+)
