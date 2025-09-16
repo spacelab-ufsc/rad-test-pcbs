@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "eps2_copy-altium-import")(type "KiCad")(uri "${KIPRJMOD}/eps2_copy-altium-import.kicad_sym")(options "")(descr ""))
+)
