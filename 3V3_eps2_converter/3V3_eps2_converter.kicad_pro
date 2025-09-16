@@ -742,18 +742,6 @@
     [
       "b10c3027-e341-47ba-82ae-2845b95084d1",
       "Root"
-    ],
-    [
-      "3cfaa560-48d3-48c4-b41d-7e69f81fb3b8",
-      "Interface"
-    ],
-    [
-      "81969499-4a62-4451-b038-ba8e8cb32904",
-      "EPS_Topology"
-    ],
-    [
-      "054c3ec9-2dd4-4d47-8e91-a0382f6a6ece",
-      "dc_dc_3V3_OBDH_and_3V3_Deployment_ANT"
     ]
   ],
   "text_variables": {
